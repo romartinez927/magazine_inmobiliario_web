@@ -1,0 +1,22 @@
+main {
+    height: 100vh;
+}
+
+ul {
+    list-style:none;
+}
+
+.nav li ul {
+    display:none;
+    transition: all 0.5s;
+}
+
+.nav li:hover > ul {
+    display:block;
+    transition: all 0.5s;
+}
+
+.nav li ul li ul {
+    right: -172px;
+    top: 0;
+} 
