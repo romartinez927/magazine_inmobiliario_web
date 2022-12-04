@@ -73,6 +73,9 @@
     font-size: 14px;
 }
 
+header {
+    height: 31em;
+}
 .header-bottom {
     height: 31em;
     width: 100%;
