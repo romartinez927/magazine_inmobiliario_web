@@ -23,6 +23,7 @@
 <body>
     <nav class="container-fluid bg-secondary">
         <div class="nav-items d-none d-md-flex justify-content-center pt-3">
+
             <div class="item">
                 <a class="nav-link p-2 text-light" href="#">Home</a>
             </div>
@@ -44,46 +45,49 @@
 
         </div>
 
-            <!-- Menu Mobile -->
-            <div class="mobile-toggler d-md-none"></div>
-                <a class="d-md-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                    aria-controls="offcanvasExample">
-                    <i class="fa-solid fa-bars text-white-50 p-3 fs-1"></i>
-                </a>
-            </div>
+        <!-- Menu Mobile -->
+        <div class="mobile-toggler d-md-none"></div>
+            <a class="d-md-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars text-white-50 p-3 fs-1"></i>
+            </a>
+        </div>
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header bg-secondary">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">uwu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body container">
-                    <div class="row pt-3">
-                        <ul class="row gy-3 text-center">
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Contenido</a>
-                            </li>
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Ediciones</a>
-                            </li>
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Servicios</a>
-                            </li>
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Propiedades</a>
-                            </li>
-                            <li class="nav-item col-12">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header bg-secondary">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">uwu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body container">
+                <div class="row pt-3">
+                    <ul class="row gy-3 text-center">
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="./pages/contenido.html">Contenido</a>
+                        </li>
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="./pages/ediciones.html">Ediciones</a>
+                        </li>
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="./pages/propiedades.html">Propiedades</a>
+                        </li>
+                        <li class="nav-item col-12">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
     </nav>
-    <header class="bg-secondary d-flex align-items-center justify-content-center container-fluid">
+    <header class="bg-secondary header-index d-flex align-items-center justify-content-start container-fluid flex-column">
+        <div class="text-center text-light pt-5">
+            <p>Todo lo que necesitas para tu hogar en un solo click</p>
+        </div>
         <div class="caja d-flex px-3 py-3">
             <div class="row gx-1 gy-2">
                 <div class="col-xs-12 col-md-5">
@@ -233,7 +237,6 @@
         <div class="text-center bg-secondary text-white-50">
             <div class="p-4">
                 <p>Copyright © 2019 Magazine Inmobiliario.</p>
-                <p>Tel 54911-6577-6756</p>
             </div>
             <div class="social pb-4">
                 <a href="#"><i class="fa-brands fa-instagram text-white-50 fs-1"></i></a>
@@ -245,7 +248,8 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
